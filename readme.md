@@ -22,6 +22,7 @@
 - `git pull` - pull latest commit from remote repository.
 - `git clone` - clone remote repository into a new directory.
 - `git branch <branch name>` `git checkout branch <branch name>` - Create a branch and go to it.
+- `git checkout <branch name>` - Switch to branch.
 - `git remote add origin <remote-repo-link>` `git push -u origin main` - Add a remote repository.
 
 ## Reference
