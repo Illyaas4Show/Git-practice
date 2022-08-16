@@ -12,3 +12,6 @@
 - `git pull` - pull latest commit from remote repository.
 - `git clone` - clone remote repository into a new directory.
 - `git remote add origin <remote-repo-link>` `git push -u origin main` - Add a remote repository.
+
+## Reference
+[Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
