@@ -1,5 +1,15 @@
 # Git Practice
-## Basic commands
+
+## Table of contents
+
+- [Commands](#commands)
+  - [Basic commands](#basic-commands)
+  - [Remote repository commands](#remote-repository-commands)
+- [Reference](#reference)
+
+## Commands
+
+### Basic commands
 - `cd` - Change directory.
 - `touch <file>` - Adds a file.
 - `git init` - Initialize the directory(local repository).
@@ -7,7 +17,7 @@
 - `git status` - Check status of working tree.
 - `git commit` - Commit changes to stage. (`git commit -m 'message'` to quickly add message.)
 
-## Remote repository commands
+### Remote repository commands
 - `git push` - Push to remote repository.
 - `git pull` - pull latest commit from remote repository.
 - `git clone` - clone remote repository into a new directory.
