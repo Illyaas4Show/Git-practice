@@ -1,4 +1,14 @@
+:root {
+    --h-color: hsl(293, 74%, 53%);
+    --h-color-lighter: hsl(293, 74%, 73%);
+}
+
 h1 {
     text-transform: uppercase;
-    color: rgb(203, 45, 224);
+    color: var(--h-color);
+    filter:
+    drop-shadow(0 0 5px black)
+    drop-shadow(0 0 30px var(--h-color))
+    ;
+    font-size: 5vw;
 }
