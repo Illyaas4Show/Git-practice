@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: black;
@@ -11,10 +17,24 @@ body {
 }
 
 main {
-    background-color: hsl(0, 0%, 100%, 20%);
+    background-color: hsl(0, 0%, 100%, 8%);
     box-shadow:
     10px 10px 0 var(--h-color),
     -10px -10px 0 var(--h-color-lighter)
     ;
     border-radius: .3rem;
+    padding-inline: 2rem;
+    padding-block: 10vw;
+    width: clamp(15rem, 20vw + 1rem, 20rem);
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+footer {
+    color: white;
+    margin-top: 3rem;
 }
