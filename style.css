@@ -9,3 +9,12 @@ body {
     height: 100vh;
     flex-direction: column;
 }
+
+main {
+    background-color: hsl(0, 0%, 100%, 20%);
+    box-shadow:
+    10px 10px 0 var(--h-color),
+    -10px -10px 0 var(--h-color-lighter)
+    ;
+    border-radius: .3rem;
+}
